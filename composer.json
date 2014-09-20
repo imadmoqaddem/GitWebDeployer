@@ -1,0 +1,26 @@
+{
+    "name": "imadmoqaddem/git-web-deployer",
+    "description": "Advanced & Easy Deployment with Git Web Hooks",
+    "authors": [
+        {
+            "name": "Imad Moqaddem",
+            "email": "imad.moqaddem@gmail.com",
+            "homepage": "http://careers.stackoverflow.com/imadmoqaddem",
+            "role": "Original Developer #1"
+        },
+        {
+            "name": "Alexis Daviot",
+            "email": "a.daviot@gmail.com",
+            "homepage": "http://fr.linkedin.com/pub/alexis-daviot/95/4a8/65",
+            "role": "Original Developer #2"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "GitWebDeployer": "src/"
+        }
+    }
+}
