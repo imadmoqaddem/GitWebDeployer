@@ -1,6 +1,6 @@
 <?php
 
-namespace GitWebDeployet;
+namespace GitWebDeployer;
 
 
 class Git {
@@ -11,6 +11,10 @@ class Git {
 
     public function __construct($config){
         $this->config = $config;
+    }
+
+    public function test(){
+        echo "test";
     }
 
     public function deploy(){
